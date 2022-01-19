@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongodb": "^3.5.7"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server:dev": "nodemon server.js",
+    "seeds": "mongo < db/seeds.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
