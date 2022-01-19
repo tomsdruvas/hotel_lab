@@ -30,7 +30,7 @@ const createRouter = function (collection) {
         collection
         .insertOne(newData)
         .then((result) => {
-            res.json(result)
+            res.json(result.ops[0])
         })
         .catch((err) => {
             console.error(err);
